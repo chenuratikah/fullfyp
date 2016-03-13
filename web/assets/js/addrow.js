@@ -27,5 +27,5 @@
 					var appendTxt = "<tr id='test'><td><input type='hidden' name='id' value='pre_id'/><select name='presentationDay' id='' style='width:100%;'><option selected disabled >Choose day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option></select></td><td><input type='time' name='presentationStart' style='padding: 2px 2px 2px 2px; margin-bottom:5px; margin-left:30px; height:90%; border-color:#e5e5e5; border-width: 2px; border-style: solid; background-color:white;'/></td><td><input type='time' name='presentationEnd' style='padding: 2px 2px 2px 2px; margin-bottom:5px; margin-left:0px; height:90%; border-color:#e5e5e5; border-width: 2px; border-style: solid; background-color: white;'/></td><td><input type='button' class='add' name='action' value='Add More' style='padding: 5px 0px 4px 5px; font-size:12pt; text-align:center; width:100%;'/></td></tr>";
 					$("tr:last").after(appendTxt);			
 				});        
-			
+			});
                         
